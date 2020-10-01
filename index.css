@@ -1,0 +1,99 @@
+
+
+body {
+    font-family: "Montserrat", sans-serif;
+    margin-top: 60px;
+}
+
+nav {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 900;
+    width: 50%;
+}
+
+
+.container-select {
+    display: flex;
+    color: rgb(119, 118, 118);
+}
+
+.box-select-nav {
+    width: 36%;
+    margin-bottom: 80px;
+}
+
+select {
+    border: 1px solid rgb(119, 118, 118);
+    background: white;
+    padding: 10px 90px 10px 90px;
+    border-radius: 31px 31px 30px 30px;
+    font-size: 14px;
+}
+
+section {
+    background-color: rgb(233, 234, 235);
+
+}
+
+.section-catalog-cards {
+    width: 940px;
+    margin: 0 auto;
+}
+
+
+.catalog-plants {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.cards-plants {
+    background-color: white;
+    width: 30%;
+    margin-bottom: 3%;
+    justify-content: center;
+
+}
+
+.container-btn-footer{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-footer {
+    border: 1px solid rgb(119, 118, 118);
+    background: white;
+    padding: 15px 235px 15px 235px;
+    border-radius: 31px 31px 30px 30px;
+    font-size: 14px;
+
+}
+
+@media (max-width: 710px) {
+
+.title {
+    text-align: center;
+    width: 90%;
+}
+
+
+.container-select, .catalog-plants {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards-plants {
+    width: 21%;
+}
+
+}
+
+
